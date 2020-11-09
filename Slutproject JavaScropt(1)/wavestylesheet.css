@@ -91,3 +91,48 @@ button{
  .nav_links li a:hover {
     color: 	#541404;
  }
+
+/* RANDOMIZE  */
+
+
+.container {
+    width: 100%;
+    min-height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.random-btn {
+    width: 250px;
+    height: 50px;
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: 	#541404;
+    border:	none;
+    border-radius: 50px;
+}
+.card {
+    width: 350px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imgcontainer img {
+   height: 300px;
+   margin-top: 20px;
+   
+}
+
+.beername, .seemore {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+ 
