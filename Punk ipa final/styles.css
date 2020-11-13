@@ -1,0 +1,175 @@
+/* Colors
+Yellow : #ffd400
+Dark grey: #100f1a
+Dark blueis: #3d3957 */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #100f1a;
+    font-family: 'Poppins',sans-serif;
+}
+
+/********************************************** NAV *************************************/
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background: #ffd400;
+
+}
+
+.brewdog {
+    width: 100px;
+    height: 100px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    color: #100f1a;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/********************************************** SECTION CONTAINER *************************************/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    background: #100f1a;
+}
+
+.imgcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.imgcontainer img {
+    height: 300px;
+    
+}
+
+.beername, .seemore {
+    color: #ffd400;
+}
+
+.text {
+    height: 70px;
+    text-align: center;
+    color: #ffd400;
+    cursor: pointer;
+}
+
+.random-btn {
+    width: 300px;
+    height: 50px;
+    background: #3d3957;
+    text-decoration: none;
+    border-style: none;
+    cursor: pointer;
+}
+
+.myList {
+    padding: 50px 900px 0px 50px;
+    cursor: pointer;
+    color: #fff;
+
+}
+
+.myList li {
+    list-style: none;
+}
+
+.myList li:hover {
+    color: #ffd400;
+    text-decoration: underline;
+}
+
+.beerUl li {
+    list-style: none; 
+    padding: 15px 0px;
+}
+
+.beerUl {
+    padding: 0px 0px 50px 50px;
+}
+
+h1 {
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+.beerInfo {
+    padding: 0px 900px 0px 30px;
+    color: #ffd400;
+    font-size: 18px
+}
+
+/********************************************** SEARCH BARS *************************************/
+
+#searchBar {
+    background: #3d3957;
+    border-style: none;
+    width: 300px;
+    height: 25px;
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 5px;
+}
+
+.submit {
+    background: #3d3957;
+    border-style: none;
+    width: 80px;
+    height: 25px;
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 0px;
+    margin-left: 5px;
+}
+
+button {
+    background: #3d3957;
+    border-style: none;
+    width: 80px;
+    height: 25px;
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: #ffd400;
+}
