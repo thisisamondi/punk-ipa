@@ -1,2 +1,0 @@
-# punk-ipa
-javascript slutprojekt
